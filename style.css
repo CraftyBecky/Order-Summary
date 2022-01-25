@@ -6,72 +6,103 @@ body {
     font-size: 1rem; 
     color: grey;
     text-align: center;
+    margin: 2.5rem;
+    background-color: hsl(225, 100%, 94%);
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
 h2 {
-    padding-top: 40px;
-    margin-top: auto;
+    padding-top: 1.5rem;
+    margin-top: 0;
 }
 
 h2, .annual {
     color: black;
 }
 
-.card {
-    justify-content: center;
-    margin: auto;
-    padding: 15px 36px;
+h2, .annual, .button1, .button2, .change {
+    font-weight: 900;
 }
 
-.card, .container {
-    border-radius: 0 0 15px 15px;
+.card {
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.text-container {
+    padding: 15px 36px;
 }
 
 .main-image {
-    border-radius: 15px 15px 0 0;
-    width: 450px;
+    display: block;
 }
 
 .container {
-    background-color: white;
-    margin: auto;
     width: 450px;
+    margin: 0 auto;
 }
 
-.change, .button1, .button2, .plans { 
+#plans, .change, .button1, .button2 { 
     font-family: inherit; 
 }
 
-.change, .button1, .button2 {
-    border-radius: 5px; 
+button {
+    border-radius: 10px; 
     padding: 15px 36px;
-    margin: 5px;
-    width: 50%;
+    margin: 5px auto;
+    cursor: pointer;
 }
 
-img.music {
-    float: left;
+.btn {
+    border: none;
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 10px;
 }
 
 .button1 {
-    border: none;
     background-color: hsl(245, 75%, 52%);
     color: white;
 }
 
+.button1:hover {
+    box-shadow: 0 3px 15px lightslategray;
+    opacity: 0.7;
+    z-index: 1;
+}
+
 .button2 {
-    border: none;
+    background-color: white;
     color: grey;
 }
 
-.plans {
-    border: none;
+.button2:hover {
+    color: black;
+}
+
+.change:hover {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#plans, .change, img.music, .annual, .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plans {
     background-color: hsl(225, 100%, 98%);
-    color: grey
+    border: none;
+    color: grey;
+    margin-bottom: 20px;
 }
-.change, .button1, .button2:hover {
-    cursor: pointer;
-}
+
 .attribution {
     margin: 5px;
     font-size: 11px; 
@@ -83,16 +114,12 @@ img.music {
 
 @media screen and (min-width: 375px) {
     body {
-        background-color: hsl(225, 100%, 94%);
         background-image: url('../images/pattern-background-mobile.svg');
-        background-size: cover;
-    }
+        }
 }
 
 @media screen and (max-width: 1440px) {
     body {
-        background-color: hsl(225, 100%, 94%);
         background-image: url('../images/pattern-background-desktop.svg');
-        background-size: cover;
     }
 }

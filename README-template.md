@@ -16,9 +16,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+This is a project that I wanted to complete using nothing but HTML and CSS. I started with a framework but wanted to solidify my CSS learning but doing vanilla CSS only. It has proven to be an excellent challenge. 
 
 ### The challenge
 
@@ -44,19 +44,15 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+  
+I built out the HTML semantic markup first, creating my classes, then moving into the CSS stylesheet where I worked each component completely before moving onto the next one. Some hiccups arose, as they do, but with the help of my mentor and code reviewer we were able to work past those. 
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -80,26 +76,18 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I working on more CSS based projects as my goal is to ensure I have a firmer understaning in how child and psuedo elements work. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [The mysterious 4px gap in between images](https://www.codeblocq.com/2016/09/The-mysterious-4px-gap-in-between-images/) - I ran into a mysterious gap between the main image and my container for the card. After researching together, Nikki found this article and it really helped me understand that the was due to the default display: inline block that occurs with images. To remove this, some changing of HTML classes was done and then putting the image in a display: block, resolved the issue. This is vital and something that I want to remember going forward.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@CraftyBecky](https://www.frontendmentor.io/profile/CraftyBecky)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I want to acknowledege the help of my friend and mentor, Nikki Morely. She and I sat down over Google Meets and she helped me figure out this strange mystery gap in between the card and container elements that was really bothering me the most with this project. She wrote out some code to make for less code, and explained one of the important pieces I was missing, the display:block. 
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
