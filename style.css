@@ -3,18 +3,20 @@
 
 body {  
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 1rem; 
+    font-size: 1em; 
     color: grey;
     text-align: center;
-    margin: 2.5rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
     background-color: hsl(225, 100%, 94%);
     background-size: 100% auto;
-    background-position: top center;
     background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url('../images/pattern-background-mobile.svg');
 }
 
 h2 {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     margin-top: 0;
 }
 
@@ -22,8 +24,12 @@ h2, .annual {
     color: black;
 }
 
-h2, .annual, .button1, .button2, .change {
+h2, .annual, .button1, .button2 {
     font-weight: 900;
+}
+
+p {
+    margin-bottom: 25px;
 }
 
 .card {
@@ -34,15 +40,16 @@ h2, .annual, .button1, .button2, .change {
 }
 
 .text-container {
-    padding: 15px 36px;
+    padding: 25px;
 }
 
 .main-image {
     display: block;
+    width: 100%;
 }
 
 .container {
-    width: 450px;
+    width: 325px;
     margin: 0 auto;
 }
 
@@ -51,18 +58,15 @@ h2, .annual, .button1, .button2, .change {
 }
 
 button {
-    border-radius: 10px; 
+    display: block;
+    border-radius: 10px;
+    border: none;
     padding: 15px 36px;
     margin: 5px auto;
-    cursor: pointer;
-}
-
-.btn {
-    border: none;
-    display: block;
     width: 100%;
     max-width: 350px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .button1 {
@@ -90,36 +94,86 @@ button {
     text-decoration: none;
 }
 
-#plans, .change, img.music, .annual, .price {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #plans {
     background-color: hsl(225, 100%, 98%);
-    border: none;
+    border-radius: 10px;
     color: grey;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10px;
+    margin: inherit;
+    margin-bottom: 25px;
+}
+
+#plan-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.change {
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.music {
+     padding-right: 15px;
 }
 
 .attribution {
     margin: 5px;
-    font-size: 11px; 
+    font-size: 8px; 
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 1200px) {
     body {
-        background-image: url('../images/pattern-background-mobile.svg');
-        }
-}
-
-@media screen and (max-width: 1440px) {
-    body {
+        background-position: top -100px center;
         background-image: url('../images/pattern-background-desktop.svg');
+        margin: 1.5rem;
     }
+
+    h2 {
+        padding-top: 1.5rem;
+    }
+
+    p {
+        white-space: pre-line;
+    }
+
+    .text-container {
+        padding: 15px 36px;
+    }
+
+    .main-image {
+        display: block;
+    }
+
+    .container {
+        width: 450px;
+        margin: auto;
+    }
+
+    #plans {
+        padding: 30px 20px;
+        margin: 7px 14px;
+        margin-bottom: 20px;
+    }
+
+    .change {
+        padding-left: 10px;
+    }
+    
+    .music {
+         margin-right: 10px;
+    }
+    
+    .attribution {
+        font-size: 11px; 
+    }
+ 
 }
