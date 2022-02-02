@@ -12,7 +12,7 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url('/Order-Summary/images/pattern-background-mobile.svg');
+    background-image: url('https://github.com/CraftyBecky/Order-Summary/blob/main/images/pattern-background-mobile.svg');
 }
 
 h2 {
@@ -136,7 +136,7 @@ button {
 @media screen and (min-width: 1200px) {
     body {
         background-position: top -100px center;
-        background-image: url('/Order-Summary/images/pattern-background-desktop.svg');
+        background-image: url('https://github.com/CraftyBecky/Order-Summary/blob/main/images/pattern-background-desktop.svg');
         margin: 1.5rem;
     }
 
