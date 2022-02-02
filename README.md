@@ -29,13 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-[Desktop Screenshot]()
-[Mobile Screenshot]()
+[Desktop Screenshot] <img src="../../screenshots/summary.desktop.jpg">
+[Mobile Screenshot] <img src="../../screenshots/summary.mobile.jpg">
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [CrafyBecky GitHub](https://craftybecky.github.io/Order-Summary/)
 
 ## My process
   
