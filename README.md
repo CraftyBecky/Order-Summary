@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Challenge](https://)
-- Live Site URL: [CrafyBecky GitHub](https://craftybecky.github.io/Order-Summary/)
+- Solution URL: [GitHub Location](https://github.com/CraftyBecky/Order-Summary.git)
+- Live Site URL: [CrafyBecky GitHub Site](https://craftybecky.github.io/Order-Summary/)
 
 ## My process
   
