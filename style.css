@@ -136,7 +136,7 @@ button {
 @media screen and (min-width: 1200px) {
     body {
         background-position: top -100px center;
-        background-image: url('Order-Summary/images/pattern-background-desktop.svg');
+        background-image: url('/Order-Summary/images/pattern-background-desktop.svg');
         margin: 1.5rem;
     }
 
