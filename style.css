@@ -3,7 +3,7 @@
 
 body {  
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 1em; 
+    font-size: 16px; 
     color: grey;
     text-align: center;
     margin-top: 5rem;
@@ -16,7 +16,7 @@ body {
 }
 
 h2 {
-    padding-top: 1rem;
+    padding-top: 10px;
     margin-top: 0;
 }
 
@@ -29,6 +29,7 @@ h2, .annual, .button1, .button2 {
 }
 
 p {
+    line-height: 26px;
     margin-bottom: 25px;
 }
 
@@ -63,6 +64,7 @@ button {
     border: none;
     padding: 15px 36px;
     margin: 5px auto;
+    font-size: 16px;
     width: 100%;
     max-width: 350px;
     margin-bottom: 10px;
@@ -101,7 +103,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 10px;
+    padding: 17px 15px;
     margin: inherit;
     margin-bottom: 25px;
 }
@@ -113,6 +115,7 @@ button {
  }
 
 .change {
+    font-size: 14px;
     font-weight: 700;
     padding-left: 10px;
 }
