@@ -29,11 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-[Desktop Screenshot] <img src="/Order-Summary/screenshots/summary.desktop.jpg">
-[Mobile Screenshot] <img src="/Order-Summary/screenshots/summary.mobile.jpg">
+[Desktop Screenshot](https://github.com/CraftyBecky/Order-Summary/blob/main/screenshots/summary-desktop.jpg)
+[Mobile Screenshot](https://github.com/CraftyBecky/Order-Summary/blob/main/screenshots/summary-mobile.jpg)
 
 ### Links
 
+- Solution URL: [Frontend Mentor Challenge](https://)
 - Live Site URL: [CrafyBecky GitHub](https://craftybecky.github.io/Order-Summary/)
 
 ## My process
@@ -45,6 +46,7 @@ I built out the HTML semantic markup first, creating my classes, then moving int
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Mobile First Method
 
 ### What I learned
 
