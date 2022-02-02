@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-[Desktop Screenshot] <img src="../../screenshots/summary.desktop.jpg">
-[Mobile Screenshot] <img src="../../screenshots/summary.mobile.jpg">
+[Desktop Screenshot] <img src="/Order-Summary/screenshots/summary.desktop.jpg">
+[Mobile Screenshot] <img src="/Order-Summary/screenshots/summary.mobile.jpg">
 
 ### Links
 
